@@ -62,10 +62,10 @@
             //                     |      |      |      |        |  |       |       |       |       |
 
             bindings = <
-&trans  &trans  &trans  &trans   &trans   &trans                     &kp PSCRN    &kp DELETE    &trans     &trans           &trans        &trans
-&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans       &kp UP        &trans     &trans           &trans        &trans
-&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &kp LEFT     &kp DOWN      &kp RIGHT  &trans           &trans        &trans
-&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp KP_MINUS  &kp EQUAL  &kp KP_ASTERISK  &kp KP_SLASH  &trans
+&trans  &trans  &trans  &trans   &trans   &trans                     &kp PSCRN    &kp DELETE    &trans        &trans           &trans        &trans
+&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans       &kp UP        &trans        &trans           &trans        &trans
+&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &kp LEFT     &kp DOWN      &kp RIGHT     &trans           &trans        &trans
+&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp KP_MINUS  &kp KP_EQUAL  &kp KP_ASTERISK  &kp KP_SLASH  &trans
                         &trans   &trans   &trans   &trans    &trans  &trans       &trans        &trans
             >;
         };
