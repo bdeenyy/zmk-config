@@ -127,6 +127,13 @@ Bluetooth, питание, ZMK Studio.
 
 Каждая половина засыпает **независимо** по своему таймеру бездействия.
 
+### OLED
+
+- OLED 128x32 включён только на левой половине
+- Для левой сборки подключён дополнительный shield `nice_oled`
+- На экране слева отображаются активный слой и заряд обеих половин
+- Настройка экрана задаётся через `config/lily58_left.conf`
+
 ### Bluetooth
 
 - Усиленная мощность передатчика: `CONFIG_BT_CTLR_TX_PWR_PLUS_8=y`
@@ -143,6 +150,7 @@ Bluetooth, питание, ZMK Studio.
 | Модуль | Описание |
 |--------|----------|
 | [zmk-behavior-insomnia](https://github.com/badjeff/zmk-behavior-insomnia) | Установлен, не используется |
+| [zmk-nice-oled](https://github.com/mctechnology17/zmk-nice-oled) | Кастомный OLED status screen для слоя и батарей обеих половин |
 
 ---
 
